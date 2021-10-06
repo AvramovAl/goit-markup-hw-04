@@ -154,7 +154,8 @@ img {
   cursor: pointer;
 }
 
-.site-nav-contacts .link:hover .link-item {
+.site-nav-contacts .link:hover .link-item,
+.site-nav-contacts .link:focus .link-item {
   fill: var(--accent-color);
 }
 
@@ -227,9 +228,9 @@ img {
 
 .features-bg {
   display: flex;
+  height: 120px;
+  align-items: center;
   justify-content: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
   background: var(--background-filter);
   border-radius: 4px;
   margin-bottom: 30px;
@@ -373,7 +374,7 @@ img {
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: var(--secondary-text-color);
+  fill: #afb1b8;
 }
 
 .social-link:focus .social-icon,
